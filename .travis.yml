@@ -18,7 +18,7 @@ script:
 - python ./manage.py test --keepdb
 deploy:
   provider: heroku
-  app: heroku-meet-travis
+  app: decide-prueba-ci
   strategy: git
   api_key:
     secure: Xr3belUSu+GbbLCGV2LeaC6WXlU592lcKKhAVAe8aA6P1sMEuOtd2lT7pbaBBqIWispB/uyhhASz25FQQe10nnH8tBOH9CwbmsaecIzgiyw/dyPtEgBOBTWfmLuqIxjIFO/WOH8CruLspvsmAnIzAIBCrlcWOZRZo4BKH5mdpI+pyqutIgFcT4/QZ5jY3ZeeHaNHxpyIQM0Jegd59ySiZffDmshSlo3AYx5kBikSpzNDb7heF+qBuM/NBJcNXufJIHFpFcn+6aSbo3mQpKYiRYVHFuWPezWWD9euZsZdsXMLbClpil+wxectXyBIBBPIKRNQsMZP79ffS7XAhyy0FqlDpVocJhFQfraybzr9wW6lVBlbmVSeeC4IuOzdEm9smllwHtbt6kg8yhG+PUONlRcjk/6regXoLu9Gw+uFheqMRT48DvYXu8igaF2SVvj9Twqcm1EBzDmWc1WfmnDKOOHWchmVbYh892r9ztPjx/LrRmmlIG6zvPaI2z7gBdJBjLodYRWBAe/NGqjB2p7e4BMhJv9BJFrU4X+YFjYv8wRBKjSAr9FA9VSVpBcX+FGyWutN2/5b52B1eTO76H3PuPfbY3SZavYrR90TyqYcsHgJfUKCt5oKhNGPS0JDtpAzh5E0sQKgOT7/ogzfB3b21+46FsDLSVRQkvOXRWY87dU=
